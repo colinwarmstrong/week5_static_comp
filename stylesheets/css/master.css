@@ -1,0 +1,164 @@
+body, html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(164, 222, 227, 1.0);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-image: url('https://i.imgur.com/CvvoeB3.jpg');
+  background-color: rgba(164, 222, 227, 1.0);
+  background-size: cover;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 180px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(84, 139, 165);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-links {
+  color: white;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dog-index-main {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.dog-index-main-how {
+  width: 580px;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog-index-main-what {
+  width: 580px;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog-index-main-facts {
+  width: 580px;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dog-icon {
+  height: 80%
+}
+
+#header-dog-pic {
+  border-radius: 200px;
+  border: solid 4px rgba(96, 148, 171, 1.0);
+}
+
+#what-are-dogs {
+  background-color: white;
+  font-size: 20px;
+  color: rgba(96, 148, 171, 1.0);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: solid 4px rgba(96, 148, 171, 1.0);
+}
+
+#how-to-dog {
+  background-color: white;
+  font-size: 20px;
+  color: rgba(96, 148, 171, 1.0);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: solid 4px rgba(96, 148, 171, 1.0);
+}
+
+#what-is-dog {
+  background-color: white;
+  font-size: 20px;
+  color: rgba(96, 148, 171, 1.0);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: solid 4px rgba(96, 148, 171, 1.0);
+}
+
+#dog-facts {
+  background-color: white;
+  font-size: 20px;
+  color: rgba(96, 148, 171, 1.0);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: solid 4px rgba(96, 148, 171, 1.0);
+}
+
+#dog-2 {
+  height: 262px;
+  width: 262px;
+  border-radius: 150px;
+  border: solid 3px rgba(96, 148, 171, 1.0);
+}
+
+#dog-3 {
+  height: 262px;
+  width: 262px;
+  border-radius: 150px;
+  border: solid 3px rgba(96, 148, 171, 1.0);
+}
+
+#dog-4 {
+  height: 262px;
+  width: 262px;
+  border-radius: 150px;
+  border: solid 3px rgba(96, 148, 171, 1.0);
+}
+
+#github-link {
+  text-decoration: underline;
+}
