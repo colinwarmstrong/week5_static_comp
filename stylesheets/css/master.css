@@ -1,164 +1,175 @@
 body, html {
-  font-family: 'Montserrat', sans-serif;
-}
-
-nav {
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: rgba(164, 222, 227, 1.0);
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header {
-  background-image: url('https://i.imgur.com/CvvoeB3.jpg');
-  background-color: rgba(164, 222, 227, 1.0);
-  background-size: cover;
-  height: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: 'arial', sans-serif;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 footer {
-  height: 180px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: rgba(160, 175, 186, 1.0);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+.main {
+  height: 93%;
+  display: flex;
+  border-bottom: 1px solid rgba(160, 175, 186, 0.4);
+}
+
+.left-main {
+  background-image: url('https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2017/05/twitter-logo-small-fade-1920.png');
+  background-color: rgba(164, 222, 227, 1.0);
+  background-position: center;
+  width: 50%;
   color: white;
-  font-size: 14px;
-  background-color: rgb(84, 139, 165);
+  font-size: 22px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.social-media-icons {
-  width: 400px;
+.follow-your-interests {
+  display: flex;
+}
+
+.hear-what-people-are-talking-about {
+  display: flex;
+}
+
+.join-the-conversation {
+  display: flex;
+}
+
+.right-main {
+  width: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-main-header {
+  width: 75%;
   display: flex;
   justify-content: space-between;
 }
 
+.right-main-subheader {
+  margin-top: 25px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
 
-.nav-links {
+.fa-search {
+  margin-top: 18px;
   color: white;
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 40px;
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
 }
 
-.dog-index-main {
-  height: 35%;
+.fa-user {
+  margin-top: 18px;
+  color: white;
+  font-size: 40px;
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
+}
+
+.fa-comment {
+  margin-top: 18px;
+  color: white;
+  font-size: 40px;
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
+}
+
+#magnifying-glass {
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
+}
+
+#people-icon {
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
+}
+
+#message-icon {
+  height: 55px;
+  width: 55px;
+  padding-right: 25px;
+}
+
+#twitter-logo {
+  height: 70px;
+  width: 70px;
+}
+
+#login-button {
+  color: rgb(52, 151, 240);
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid rgb(52, 151, 240);
+  border-radius: 35px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.dog-index-main-how {
-  width: 580px;
-  font-size: 18px;
-  margin: 10px;
-  text-align: center;
+#right-subheader {
+  font-size: 36px;
+}
+
+#signup-button {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(25, 151, 240);
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+}
+
+#login-button-2 {
+  margin-top: 20px;
+  font-size: 20px;
+  border: 1px solid rgba(25, 151, 240, 1.0);
+  color: rgba(25, 151, 240, 1.0);
+  background-color: white;
+  padding-left: 208px;
+  padding-right: 208px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+}
+
+#join-twitter {
+  margin-top: 50px;
+  width: 75%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.dog-index-main-what {
-  width: 580px;
-  font-size: 18px;
-  margin: 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.dog-index-main-facts {
-  width: 580px;
-  font-size: 18px;
-  margin: 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#dog-icon {
-  height: 80%
-}
-
-#header-dog-pic {
-  border-radius: 200px;
-  border: solid 4px rgba(96, 148, 171, 1.0);
-}
-
-#what-are-dogs {
-  background-color: white;
-  font-size: 20px;
-  color: rgba(96, 148, 171, 1.0);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border: solid 4px rgba(96, 148, 171, 1.0);
-}
-
-#how-to-dog {
-  background-color: white;
-  font-size: 20px;
-  color: rgba(96, 148, 171, 1.0);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border: solid 4px rgba(96, 148, 171, 1.0);
-}
-
-#what-is-dog {
-  background-color: white;
-  font-size: 20px;
-  color: rgba(96, 148, 171, 1.0);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border: solid 4px rgba(96, 148, 171, 1.0);
-}
-
-#dog-facts {
-  background-color: white;
-  font-size: 20px;
-  color: rgba(96, 148, 171, 1.0);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border: solid 4px rgba(96, 148, 171, 1.0);
-}
-
-#dog-2 {
-  height: 262px;
-  width: 262px;
-  border-radius: 150px;
-  border: solid 3px rgba(96, 148, 171, 1.0);
-}
-
-#dog-3 {
-  height: 262px;
-  width: 262px;
-  border-radius: 150px;
-  border: solid 3px rgba(96, 148, 171, 1.0);
-}
-
-#dog-4 {
-  height: 262px;
-  width: 262px;
-  border-radius: 150px;
-  border: solid 3px rgba(96, 148, 171, 1.0);
-}
-
-#github-link {
-  text-decoration: underline;
 }
